@@ -24,7 +24,7 @@ RCT_EXPORT_METHOD(startScan:(NSString *)name location:(NSString *)location)
 RCT_EXPORT_METHOD(startScan:(RCTResponseSenderBlock)callback)
 {
   
-  callback(@[[NSNull null], "Start Scan"]);
+  callback(@[[NSNull null], @"Start Scan"]);
 }
 
 @end
