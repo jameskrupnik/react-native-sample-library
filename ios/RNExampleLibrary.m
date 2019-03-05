@@ -10,10 +10,10 @@
 
 RCT_EXPORT_MODULE()
 
-RCT_EXPORT_METHOD(startScan:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(startScan:(NSString *)message callback:(RCTResponseSenderBlock)callback)
 {
   
-  callback(@[[NSNull null], @"Start Scan"]);
+  callback(@[[NSNull null], @[message]);
 }
 
 @end
